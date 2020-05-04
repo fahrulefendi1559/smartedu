@@ -25,4 +25,24 @@ class HomeController extends Controller
     {
         return view('home');
     }
+
+    public function data()
+    {
+
+    }
+
+    public function store(Request $request)
+    {
+
+    }
+
+    public function edit(Request $request)
+    {
+
+    }
+
+    public function delete(Request $request)
+    {
+        
+    }
 }
