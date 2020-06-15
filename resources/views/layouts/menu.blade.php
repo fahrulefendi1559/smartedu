@@ -16,6 +16,10 @@
                 <li class="{{ Request::segment(1) == 'home' ? ' active' : '' }}">
                     <a href="{{ route('home') }}"><i class="fa fa-dashboard"></i> <span class="nav-label">Dashboard</span></a>
                 </li>
+
+                <li>
+                    <a href="{{route('user') }}"> <i class="fa fa-user"></i> <span class="nav-label">User </span></a>
+                </li>
         </ul>
 
     </div>
